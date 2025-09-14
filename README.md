@@ -28,7 +28,7 @@ Ele foi feito com **Java Spring Boot** e **MySQL**.
 
 ## Como configurar o banco de dados
 1. Abra o MySQL e crie o banco e usuário:
-sql
+```sql
 CREATE DATABASE farmacia_db;
 CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
 GRANT ALL PRIVILEGES ON farmacia_db.* TO 'usuario'@'localhost';
