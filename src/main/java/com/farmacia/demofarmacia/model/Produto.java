@@ -15,7 +15,7 @@ public class Produto {
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
-    // Getters e Setters
+
     public Long getId() {
         return id;
     }
