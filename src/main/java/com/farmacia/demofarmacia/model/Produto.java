@@ -10,6 +10,10 @@ public class Produto {
     private String nome;
     private Double preco;
     private Integer quantidade;
+    
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
 
     // Getters e Setters
     public Long getId() {
